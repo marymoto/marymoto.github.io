@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
     gem 'classifier-reborn'
-    gem 'wdm', '>=0.1.0'
     gem 'jekyll'
     gem 'jekyll-archives'
     gem 'jekyll-email-protect'
@@ -19,7 +18,7 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'mini_racer'
     gem 'unicode_utils'
-    gem 'webrick'
+    gem 'webrick' 
 end
 group :other_plugins do
     gem 'feedjira'
