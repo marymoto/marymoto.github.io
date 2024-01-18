@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://marymoto.github.io/sitemap.xml
