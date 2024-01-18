@@ -3,32 +3,17 @@
  ******************************************************************************/
 
 :root {
-  --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{$white-color};
-
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
+  --global-bg-color: #f5f5f5; /* Light background */
+  --global-text-color: #333333; /* Dark text color */
+  --global-heading-color: #555555; /* Heading color */
+  --global-subheading-color: #777777; /* Subheading color */
+  --global-code-bg-color: #e0e0e0; /* Light sage for code background */
+  --global-link-color: #4e5a5e; /* Sage for link color */
+  --global-card-bg-color: #f0f0f0; /* Lighter background for card */
+  --global-card-text-color: #333333; /* Dark text color for cards */
+  --global-divider-color: #dddddd; /* Lighter background for divider */
+  --global-theme-color: #b192c2; /* Brighter lavender for theme color */
+  --global-hover-color: #88c0d0; /* Lighter shade of mint for hover effect */
 
   .fa-sun {
     display: none;
@@ -48,32 +33,17 @@
 }
 
 html[data-theme="dark"] {
-  --global-bg-color: #{$grey-color-dark};
-  --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color-light};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
-  --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
-
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
+  --global-bg-color: #1d1f21; /* Dark background */
+  --global-text-color: #c5c8c6; /* Light text color */
+  --global-heading-color: #a7adba; /* Heading color */
+  --global-subheading-color: #848d9d; /* Subheading color */
+  --global-code-bg-color: #556b6e; /* Dark sage for code background */
+  --global-link-color: #81a2be; /* Mint for link color */
+  --global-card-bg-color: #4e5a5e; /* Sage for card background */
+  --global-card-text-color: #c5c8c6; /* Dark text color for cards */
+  --global-divider-color: #373b41; /* Darker background for divider */
+  --global-theme-color: #b192c2; /* Brighter lavender for theme color */
+  --global-hover-color: #88c0d0; /* Lighter shade of mint for hover effect */
 
   .fa-sun {
     padding-left: 10px;
